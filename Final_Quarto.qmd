@@ -1,0 +1,23 @@
+---
+title: "EPI590 R Final Project"
+author: "Shamika Chavda"
+format: html
+---
+
+##Load packages and dataset
+```{r}
+library(tidyverse)
+library(gtsummary)
+library(here)
+
+world_fairs <- read.csv(here("worlds_fairs.csv"))
+```
+
+
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
